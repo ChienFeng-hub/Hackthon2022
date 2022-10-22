@@ -1,2 +1,0 @@
-### Link
-Run dowload.sh
