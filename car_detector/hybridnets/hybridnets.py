@@ -122,7 +122,7 @@ class HybridNets():
 
 		combined_img = np.hstack((front_view, bird_eye_view))
 
-		return combined_img
+		return combined_img, bird_eye_view
 
 	def get_input_details(self):
 

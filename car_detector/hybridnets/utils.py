@@ -23,7 +23,8 @@ def util_draw_seg(seg_map, image, alpha = 0.5):
 
 	# Fuse both images
 	if(alpha == 0):
-		combined_img = np.hstack((image, color_segmap))
+		# combined_img = np.hstack((image, color_segmap))
+		combined_img = cv2.addWeighted(image, alpha, color_segmap, (1-alpha),0)
 	else:
 		combined_img = cv2.addWeighted(image, alpha, color_segmap, (1-alpha),0)
 
