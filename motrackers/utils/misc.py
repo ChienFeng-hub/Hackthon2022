@@ -260,8 +260,10 @@ def draw_tracks(image, tracks):
         trk_id = trk[1]
         xmin = trk[2]
         ymin = trk[3]
-        width = trk[4]
-        height = trk[5]
+        xmax = trk[4]
+        ymax = trk[5]
+        width = xmax - xmin
+        height = ymax - ymin
 
         xcentroid, ycentroid = int(xmin + 0.5*width), int(ymin + 0.5*height)
 
