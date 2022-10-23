@@ -14,7 +14,7 @@
 ![stop_small](https://user-images.githubusercontent.com/40494242/197366309-c0b59cdc-1cff-4a52-b72f-7bd09639283e.gif)
 
 ## Details
-https://drive.google.com/file/d/1V2kffEWC-bFWKS-6rIqFxD7NEDcrruY6/view?usp=sharing
+https://drive.google.com/drive/folders/1deNDGbN8zD9deGXOZJCDmE3TSy7Y6Csf?usp=sharing
 
 
 
